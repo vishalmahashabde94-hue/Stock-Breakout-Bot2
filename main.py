@@ -5,8 +5,9 @@ import schedule
 import time as t
 import pytz
 
-BOT_TOKEN = "8378760055:AAGR1YyCPRnRL6cn_Kzyd207PhKhZc1H3AM"
-CHAT_ID = "5832045565"
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+CHAT_ID = os.environ.get("CHAT_ID")
 
 STOCKS = {
     "HBLENG.NS":        {"name": "HBL Engineering",       "resistance": 0},
