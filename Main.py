@@ -5,7 +5,7 @@ import schedule
 import time as t
 import pytz
 
-BOT_TOKEN = "8378760055:AAFiuWNW1udULE8rjG0GS1bjzNYAqiHFRNo"
+BOT_TOKEN = "8378760055:AAGR1YyCPRnRL6cn_Kzyd207PhKhZc1H3AM"
 CHAT_ID = "5832045565"
 
 STOCKS = {
